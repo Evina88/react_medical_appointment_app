@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from './Components/Navbar/Navbar';
 import Landing_Page from './Components/Landing_Page/Landing_Page';
+import Login from './Components/Login/Login';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Navbar/>
               <Routes>
               <Route path="/" element={<Landing_Page/>}/>
+              <Route path="/login" element={<Login/>}/>
               </Routes>
             
         </BrowserRouter>

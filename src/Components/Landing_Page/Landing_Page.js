@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Landing_Page.css";
 
 const Landing_Page = () => {
@@ -16,17 +15,17 @@ const Landing_Page = () => {
                 Our Responsibility
               </span>
             </h1>
-              <div class="blob-cont">
-                  <div class="blue blob"></div>
+              <div className="blob-cont">
+                  <div className="blue blob"></div>
               </div>
-              <div class="blob-cont">
-                  <div class="blue1 blob"></div>
+              <div className="blob-cont">
+                  <div className="blue1 blob"></div>
               </div>
             <h4>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque at quae ducimus. Suscipit omnis quibusdam non cum rem voluptatem!
             </h4>
             <a href="#services">
-              <button class="button">Get Started</button>
+              <button className="button">Get Started</button>
             </a>
         </div>
 
