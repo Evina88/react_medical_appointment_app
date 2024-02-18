@@ -8,10 +8,10 @@ const Login = () => {
             <div className="login-text">
                 <h2>Login</h2>
             </div>
-            {/* <div className="login-text">
-                Are you a new member? <span><a href="../Sign_Up/Sign_Up.html" style="color: #2190FF;"> Sign Up
+            <div className="login-text">
+                Are you a new member? <span><a href="./signup" style={{ color: '#2190FF'}}> Sign Up
                         Here</a></span>
-            </div> */}
+            </div>
             <br />
             <div className="login-form">
                 <form>

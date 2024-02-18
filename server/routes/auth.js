@@ -83,6 +83,7 @@ router.post('/register',[
 
 router.post('/login', [
     body('email', "Please Enter a Vaild Email").isEmail(),
+    body('phone', "Phone Number Should Be 10 Digits.").isLength({ min: 10 }),
 ], async (req, res) => {
 
     const errors = validationResult(req);
