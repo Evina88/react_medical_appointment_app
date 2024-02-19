@@ -1,4 +1,4 @@
-Medical Appointment Booking website
+Medical Appointment Booking App
 
 Original code forked from https://github.com/ibm-developer-skills-network/grihf-frontend_capstone_starter_code
 
