@@ -7,14 +7,12 @@ import "./Navbar.css";
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [username, setUsername] = useState("");
     const[email,setEmail]=useState("");
     const [showDropdown, setShowDropdown] = useState(false);
     const handleClick = () => setClick(!click);
 
-    
     const handleLogout = () => {
         sessionStorage.removeItem("auth-token");
         sessionStorage.removeItem("name");
