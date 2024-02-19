@@ -5,14 +5,16 @@ Original code forked from https://github.com/ibm-developer-skills-network/grihf-
 
 To install: 
 
-Run npm install in the root folder
-Run npm install in the server folder
+Run npm install in the root folder & in the server folder.
 
 
 To run:
 
-Run npm start in the root folder
-For the server to start you need to run node index in the server folder (mongo credentials change every time and need to be updated in auth.js)
+Run npm start in the root folder to start the project. 
+
+For the server to start you need to run node index in the server folder 
+(mongo credentials change every time and need to be updated in auth.js)
+
 
 STEPS:
 
