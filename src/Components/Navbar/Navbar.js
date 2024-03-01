@@ -9,7 +9,7 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [username, setUsername] = useState("");
-    const[email,setEmail]=useState("");
+    const [email,setEmail]=useState("");
     const [showDropdown, setShowDropdown] = useState(false);
     const handleClick = () => setClick(!click);
 

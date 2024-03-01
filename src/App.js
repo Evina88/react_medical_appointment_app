@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from './Components/Navbar/Navbar';
-import Landing_Page from './Components/Landing_Page/Landing_Page';
+import LandingPage from './Components/LandingPage/LandingPage';
 import Login from './Components/Login/Login';
-import Sign_Up from './Components/Sign_up/Sign_Up';
+import SignUp from './Components/SignUp/SignUp';
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
         <BrowserRouter>
           <Navbar/>
               <Routes>
-              <Route path="/" element={<Landing_Page/>}/>
+              <Route path="/" element={<LandingPage/>}/>
               <Route path="/login" element={<Login/>}/>
-              <Route path='/signup' element={<Sign_Up/>}/>
+              <Route path='/signup' element={<SignUp/>}/>
               </Routes>
             
         </BrowserRouter>

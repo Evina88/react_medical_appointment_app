@@ -1,4 +1,4 @@
-import './Sign_Up.css';
+import './SignUp.css';
 import { Link, useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import { API_URL } from '../../config';
