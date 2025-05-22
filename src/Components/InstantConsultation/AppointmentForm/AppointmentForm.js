@@ -55,18 +55,18 @@ import React, { useState } from 'react'
         </div>
         <div className="form-group">
           <label>Available Time Slots:</label>
-          <div className="time-slots">
+          <select
+            value={selectedSlot || ''}
+            onChange={(e) => handleSlotSelection(e.target.value)}
+            required
+          >
+            <option value="">Select a time slot</option>
             {timeSlots.map((slot) => (
-              <button
-                key={slot}
-                type="button"
-                className={`time-slot ${selectedSlot === slot ? 'selected' : ''}`}
-                onClick={() => handleSlotSelection(slot)}
-              >
+              <option key={slot} value={slot}>
                 {slot}
-              </button>
+              </option>
             ))}
-          </div>
+          </select>
         </div>
         <button type="submit" disabled={!selectedDate || !selectedSlot}>Book Now</button>
       </form>
